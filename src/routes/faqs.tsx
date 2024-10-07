@@ -5,37 +5,34 @@ export default function FaqsPage() {
   return (
     <Layout>
       <Article
-        title="FAQ's"
-        imageAlt="Lorem Picsum"
+        title="Вопросы"
+        imageAlt="Чо за нн картина"
         imageSrc="https://picsum.photos/420/640?grayscale"
       >
-        <p>Add your FAQ content here.</p>
+        <p>Вопросы про скилл.</p>
         <details
           className="mt-4 block rounded-sm border px-4 open:border-primary-400 hover:border-primary-300"
           open
         >
-          <summary className="-mx-4 cursor-pointer border-primary-200 px-4 py-3">
-            What is Holly?
-          </summary>
+          <summary className="-mx-4 cursor-pointer border-primary-200 px-4 py-3">CS2?</summary>
           <p>
-            Holly is a free HTML/CSS landing page designed and developed by{' '}
-            <a href="https://twitter.com/pacovitiello">@pacovitiello</a> and{' '}
-            <a href="https://twitter.com/DavidePacilio">@DavidePacilio</a>!
+            Тут без комментариев... Крутилки на 8.000 в премьере. Приватные читы не банятся.А так вот мой стим{' '}
+            <a href="https://steamcommunity.com/id/nobindony">proof</a>!
           </p>
           <p>
-            Holly is suitable for all kind of startups, it's easily customizable, and it's
-            downloadable for personal and commercial use.
+            Кс го лучше.
           </p>
         </details>
         <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300">
-          <summary className="-mx-4 cursor-pointer px-4 py-3">How can I use Holly?</summary>
+          <summary className="-mx-4 cursor-pointer px-4 py-3">Geometry Dash?</summary>
           <p>
-            Holly is licensed under the MIT License, which means you can use it for personal and
-            commercial projects for free.
+Ох такая непредсказуемая история, обречённым тильтом
           </p>
           <p>
-            You can also modify Holly to your needs, but you can't redistribute it or sell it as a
-            template.
+            [Extreme Demon] Cataclysm 66%... mindblock 48%(
+          </p>
+          <p>
+  А так щёлкаю демоны(кроме екстрима) как орешки
           </p>
         </details>
         <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300">

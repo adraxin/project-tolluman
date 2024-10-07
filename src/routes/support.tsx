@@ -13,16 +13,16 @@ export default function SupportPage() {
   return (
     <Layout>
       <Article
-        title="FAQ's"
-        imageAlt="Lorem Picsum"
+        title="Поддержка"
+        imageAlt="Чо за нн картина"
         imageSrc="https://picsum.photos/420/640?grayscale"
       >
-        <p>Add your support content here.</p>
+        <p>Добавьте здесь свои данные для поддержки.</p>
 
         <form className="space-y-4">
           <div>
             <label className="block text-lg font-medium leading-10" htmlFor="name">
-              Name
+              Имя
             </label>
             <input
               className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
@@ -33,7 +33,7 @@ export default function SupportPage() {
           </div>
           <div>
             <label className="block text-lg font-medium leading-10" htmlFor="email">
-              Email
+              Емеил
             </label>
             <input
               className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
@@ -44,7 +44,7 @@ export default function SupportPage() {
           </div>
           <div>
             <label className="block text-lg font-medium leading-10" htmlFor="message">
-              Message
+              Сообщение
             </label>
             <textarea
               className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
@@ -58,7 +58,7 @@ export default function SupportPage() {
             onClick={handleClick}
             type="submit"
           >
-            Submit
+            Отправить
           </button>
 
           {success && (

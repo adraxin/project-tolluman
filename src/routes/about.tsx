@@ -5,19 +5,14 @@ function AboutPage() {
   return (
     <Layout>
       <Article
-        title="About"
-        imageAlt="Lorem Picsum"
+        title="О себе"
+        imageAlt="Чо за нн картина"
         imageSrc="https://picsum.photos/420/640?grayscale"
       >
         {/* prettier-ignore */}
         <p>
-            Holly is a free HTML/CSS landing page designed and developed by <a href="https://twitter.com/pacovitiello">@pacovitiello</a> and <a href="https://twitter.com/DavidePacilio">@DavidePacilio</a>!
-          </p>
-        <p>
-          Holly is suitable for all kind of startups, it's easily customizable, and it's
-          downloadable for personal and commercial use.
+Vsm o sebe?
         </p>
-        <p>This template is distributed under the MIT License.</p>
       </Article>
     </Layout>
   )

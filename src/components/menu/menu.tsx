@@ -1,10 +1,10 @@
 import MenuItem from '@/components/menu/menu-item'
 
 const MENU_ITEMS = [
-  { name: 'Contact', to: '/contact' },
-  { name: 'About Us', to: '/about' },
-  { name: "FAQ's", to: '/faqs' },
-  { name: 'Support', to: '/support' },
+  { name: 'Контакт', to: '/contact' },
+  { name: 'О себе', to: '/about' },
+  { name: "Вопросы", to: '/faqs' },
+  { name: 'Поддержка', to: '/support' },
 ]
 
 function Menu({ className }: { className?: string }) {
