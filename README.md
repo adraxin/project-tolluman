@@ -1,8 +1,6 @@
-# Holly(Шаблон)
+# Project tolluman
 
-A React implementation of [Davide Pacilio's](https://cruip.com/) free landing page template, [Holly](https://lukemcdonald.github.io/holly-react/).
-
-test
+My personal website [adraxin](https://adraxin.github.io/project-tolluman/).
 
 # Getting Started
 
