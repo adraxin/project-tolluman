@@ -51,8 +51,8 @@ function Illustration({ className }: { className?: string }) {
         <svg width="124" height="64" viewBox="0 0 124 64" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient x1="0%" y1="50%" x2="114.418%" y2="50%" id="squares-1-a">
-              <stop stopColor="#6EFACC" offset="0%" />
-              <stop stopColor="#6EFACC" stopOpacity="0" offset="100%" />
+              <stop stopColor="#FDE910" offset="0%" />
+              <stop stopColor="#FDE910" stopOpacity="0" offset="100%" />
             </linearGradient>
           </defs>
           <path
@@ -69,8 +69,8 @@ function Illustration({ className }: { className?: string }) {
         <svg width="64" height="88" viewBox="0 0 64 88" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient x1="0%" y1="50%" x2="114.418%" y2="50%" id="squares-2-a">
-              <stop stopColor="#6EFACC" offset="0%" />
-              <stop stopColor="#6EFACC" stopOpacity="0" offset="100%" />
+              <stop stopColor="#FDE910" offset="0%" />
+              <stop stopColor="#FDE910" stopOpacity="0" offset="100%" />
             </linearGradient>
           </defs>
           <path
@@ -83,9 +83,9 @@ function Illustration({ className }: { className?: string }) {
       </div>
       <div
         ref={addToScrollRevealTwoRef}
-        className="absolute -top-48 left-96 hidden drop-shadow-2xl lg:block"
+        className="absolute -top-96 left-96 hidden drop-shadow-2xl lg:block"
       >
-        <svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        <svg width="400" height="400" viewBox="0 100 400 400" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <radialGradient
               cx="56.15%"
@@ -106,7 +106,7 @@ function Illustration({ className }: { className?: string }) {
         </svg>
       </div>
       <div
-        className="hero-ball hero-ball-2 absolute left-16 top-72 drop-shadow-2xl lg:-left-16 lg:top-80"
+        className="hero-ball hero-ball-2 absolute left-16 top-72 drop-shadow-2xl lg:-left-16 lg:top-24"
         ref={addToScrollRevealOneRef}
       >
         <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">

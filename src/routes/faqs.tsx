@@ -36,10 +36,10 @@ export default function FaqsPage() {
           </p>
         </details>
         <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300">
-          <summary className="-mx-4 cursor-pointer px-4 py-3">Can I contribute to Holly?</summary>
+          <summary className="-mx-4 cursor-pointer px-4 py-3">osu!</summary>
           <p>
-            Yes, you can! Holly is an open source project, and you can contribute to it on{' '}
-            <a href="https://github.com/lukemcdonald/holly-react">GitHub</a>.
+            Блен я анскил(6 дигит) 200 перформанс поинт упустил...{' '}
+            <a href="https://osu.ppy.sh/users/14657996">osu!profile</a>.
           </p>
         </details>
       </Article>
