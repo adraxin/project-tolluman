@@ -11,7 +11,7 @@ function AboutPage() {
       >
         {/* prettier-ignore */}
         <p>
-Vsm o sebe?
+Родился 28 февраля 2005 года, учусь на данным момент в "КЦТ "АЙТЫЫН" 2 курс
         </p>
       </Article>
     </Layout>

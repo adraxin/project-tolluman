@@ -5,8 +5,8 @@ export default function HomePage() {
   return (
     <Layout>
       <Hero
-        title="Щыг ссылка"
-        content="На почту скинется гайд(пока не работает, в разработке)."
+        title="Мой личный сайт"
+        content="."
         illustration={<HeroIllustration />}
       />
     </Layout>
