@@ -1,4 +1,3 @@
-import { NewsletterForm } from '@/components/newsletter-form'
 import { cn } from '@/utils/cn'
 import type { ReactNode } from 'react'
 import { useEffect, useRef } from 'react'
@@ -59,14 +58,6 @@ function Hero({
               <p className="prose prose-xl m-auto text-gray-500" ref={addToScrollRevealRef}>
                 {content}
               </p>
-            </div>
-
-            <div ref={addToScrollRevealRef}>
-              <NewsletterForm
-                className="mx-auto mt-8 max-w-md lg:mx-0"
-                submitText="Получить гайд"
-                onSubmit={onNewsletterSubmit}
-              />
             </div>
           </div>
 
